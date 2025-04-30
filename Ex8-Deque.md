@@ -29,7 +29,7 @@ int delFront(int *, int *, int *);
 int delRear(int *, int *, int *); 
 void display(int *); 
 int count(int *); 
-*/ 
+
 int count(int *arr) { 
 int c = 0, i; 
 for(i=0;i<MAX;i++) 
@@ -41,7 +41,7 @@ c=c+1;
 } 
 return c; 
 } 
-*/
+
 ```
 
 ## Output:
